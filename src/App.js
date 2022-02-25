@@ -1,24 +1,44 @@
-import logo from './logo.svg';
+import  ReactDOM from "react-dom";
+import { BrowserRouter  } from "react-router-dom";
+import { Routes, Route, Link, Router} from "react-router-dom";
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navs from './Hamza/Navs';
+
+import Home from './Hamza/Home';
+import Visa from './Hamza/Visa';
+import Travel from './Hamza/Travel';
+import Hot from './Hamza/Hot';
+import Contact from './Hamza/Contact';
+import Foter from './Hamza/Foter';
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+
+
+
+  <Navs />
+
+    <Routes>
+
+      <Route exact element={<Home />} path="/" />
+      <Route exact element={<Visa />} path="/Visa" />
+      <Route exact element={<Hot /> } path="/Hot" />
+      <Route exact element={<Travel /> } path="/Travel" />
+      <Route exact element={<Contact />} path="/Contact" />
+     
+    </Routes>
+
+
+
+    <Foter/>
+    
+  </BrowserRouter>
+
   );
 }
 

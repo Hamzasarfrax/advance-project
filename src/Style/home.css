@@ -1,0 +1,26 @@
+.contentsof-home{
+
+position: relative;
+top: 5rem;
+
+
+}
+
+.client-name{
+
+    color: green;
+}
+
+.btn{
+    color: rgb(6, 20, 32);
+    background-color: palegreen;
+    outline: none;
+    box-shadow: none;
+    border-radius: 18px;
+    text-transform: capitalize;
+}
+
+.btn:hover{
+    background-color: green;
+    color: aliceblue;
+}
