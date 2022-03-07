@@ -1,3 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Heebo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Heebo:wght@700&family=Hubballi&display=swap');
+
+
+
+
+
+
+* {
+
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Hubballi', cursive;
+}
+
+
+
+
+
+
+
+
+
 .contentsof-home{
 
 position: relative;
@@ -11,16 +35,202 @@ top: 5rem;
     color: green;
 }
 
-.btn{
+.batn{
     color: rgb(6, 20, 32);
     background-color: palegreen;
     outline: none;
     box-shadow: none;
     border-radius: 18px;
+    border: none;
     text-transform: capitalize;
+    transition: all 0.6s ease;
 }
 
-.btn:hover{
-    background-color: green;
+.batn:hover{
+    background: linear-gradient(to top right, #33ccff -13%, #ff99cc 109%);
     color: aliceblue;
+    outline: none;
+    border: none;
 }
+
+
+.batn:checked{
+   outline: none;
+   border: none;
+}
+
+.batn:focus{
+    color: rgb(6, 20, 32);
+    outline: none ;
+    border: none;
+    box-shadow: none;
+    background-color: rgb(238, 234, 20);
+    transform: scale(0.9);
+}
+
+/* ===========================this is home box css =====================*/
+
+/* this is box 1 handle  */
+
+
+.box-first{
+
+    position: relative;
+   
+   top: -8rem;
+  left: 6.7rem;
+  width: 20%;
+
+}
+
+.box-data{
+  
+  position: relative;
+  top: 5rem;
+}
+
+
+
+.box1{
+
+    background-color: orange;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 15px;
+    word-wrap: break-word;
+  
+}
+
+.horizontal-line{
+    width: 4rem;
+    margin-left: 0.5rem;
+    position: absolute;
+    top: 13rem;
+}
+
+
+
+.horizontal-line2{
+    width: 4rem;
+    margin-left: 0.5rem;
+    position: relative;
+    top: -2.8rem;
+}
+
+
+
+
+
+.horizontal-line3{
+    width: 4rem;
+    margin-left: 0.5rem;
+    position: relative;
+    top: -2.8rem;
+}
+
+
+
+.paragraph{
+    position: relative;
+    left: 6rem;
+    bottom: 5rem;
+    width: 70%;
+}
+
+
+.heading-home{
+
+    margin-left: 6rem;
+    position: relative;
+    top: 3rem;
+    text-transform: uppercase;
+    color: green;
+    cursor: pointer;
+}
+
+
+/* this is for welcome font awsome */
+
+.font-awsome{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Hubballi', cursive;
+}
+
+
+
+
+
+
+.card{
+    /* width: 18rem;
+    */
+}
+
+
+
+.verticle{
+    background-color: #ff99cc;
+}
+
+
+/* ========================================this is box icomn-===================================================== */
+
+
+
+
+
+.icons{
+
+color: rgb(255, 255, 255);
+margin-left: 30px;
+  
+    margin-bottom: 20px;
+}
+
+
+
+/* 
+this is sec and thid box date ======================== */
+
+
+.margin{
+
+    margin-bottom: 50px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 4.5rem;
+}
+
+/* 
+=================this is first home box date margin class================== */
+
+.mb{
+    position: relative;
+    bottom: 5px;
+}
+
+
+/* ===================thid is responsive layouts========================= */
+
+
+@media (min-width:992px) and (max-width:1280px){
+
+
+.card{
+ 
+}
+
+}
+
+
+
+@media  (max-width:320px){
+
+
+    .card{
+ 
+
+    }
+    
+    }

@@ -12,18 +12,18 @@ const Navs = () => {
    
 < div className='hamza'>
 
-<Navbar  expand="lg" className='navbar'>
+<Navbar  expand="lg" className='navbar mx-5 my-3'>
   <Container>
     {/* <img src={logo} href="#home"/>  */}
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <div className=''>
       <Nav className="navlinks  ">
-        <NavLink to="/" className="home">Home</NavLink>
-        <NavLink to="Visa"  className="visa" >Visa</NavLink>
-        <NavLink to="Hot"  className="hot" >HOT deals</NavLink>
-        <NavLink to="Travel"  className="travel" >Travel Insurance</NavLink>
-        <NavLink to="Contact"  className="contact" >Contact</NavLink>
+        <NavLink to="/" className="home hov-data">Home</NavLink>
+        <NavLink to="Visa"  className="visa hov-data" >Visa</NavLink>
+        <NavLink to="Hot"  className="hot hov-data" >HOT deals</NavLink>
+        <NavLink to="Travel"  className="travel hov-data" >Travel Insurance</NavLink>
+        <NavLink to="Contact"  className="contact hov-data" >Contact</NavLink>
       
         {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
           <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>

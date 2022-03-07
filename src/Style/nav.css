@@ -1,10 +1,9 @@
 .navbar{
+background-color:  #00aba9;
 
-  background-color: palegreen;
-width: 80%;
-  position: absolute;
+  position: relative;
  /* margin-left: 10px 3rem; */
-margin: 10px 125px;
+/* margin: 10px 125px; */
   border-top-left-radius:15px ;
   border-top-right-radius:15px ;
   /* border-bottom-right-radius:10px ; */
@@ -33,12 +32,13 @@ z-index: 1000px;
 
     position: relative;
     padding: auto;
-padding: 1px 50px;
+padding: 5px 50px;
 margin: 9px;
-left: 5rem;
+left: 8rem;
 text-transform: uppercase;
 text-decoration: none;
 color: black;
+transition: all 0.5s ease-in-out;
 
   
 }
@@ -49,25 +49,27 @@ color: black;
 
 
 
+.hov-data:hover{
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.2);
 
-
-
+}
 
 
 
 /*===================================== responsive navbar for sliping left side ====================================*/
 
 
-@media only screen and (max-width: 1200px) and (min-width: 200px)  {
+@media only screen and (max-width: 1200px) and (min-width: 992px)  {
 
 
 
 
 
-.navbar{
+/* .navbar{
 
  width: 80%;
-}
+} */
 
 
 
@@ -80,7 +82,7 @@ color: black;
   .hot,
   .travel,
   .contact{
-
+  
   padding: 5px 20px;
 
 
@@ -90,7 +92,7 @@ color: black;
 
 
 
-@media only screen and (max-width: 700px) and (min-width: 500px)  {
+/* @media only screen and (max-width: 700px) and (min-width: 500px)  {
 
 
 
@@ -109,16 +111,33 @@ right: -50px;
 }
 
 
-@media only screen and (max-width: 500px) and (min-width: 200px)  {
+
+ */
 
 
 
 
-  .navbar{
-top: -0px;
-right: -75px;
-   }
-   
+
+
+@media only screen and (max-width: 440px) and (min-width: 200px)  {
+
+
+
+
+
+  .home,
+ 
+  .visa,
+  .hot,
+  .travel,
+  .contact{
+  
+
+ margin-left: -6rem;
+
+
+  }  
+
    
    
 

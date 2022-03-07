@@ -1,0 +1,94 @@
+.contact-link{
+    background: blue;
+    color: aliceblue;
+}
+
+.contact-link:hover{
+    background: rgb(215, 215, 219);
+    color: rgb(4, 32, 56);
+}
+
+
+
+/* this is meassage box of contaxct  */
+
+.mesaage-contact{
+
+    
+    max-height: 15rem;
+    min-height: 15rem;
+}
+
+
+
+/* ==========this is form label and inputs============== */
+
+
+.label-contact{
+
+    outline: none;
+    box-shadow: none;
+    border: none;
+    background: #ced4da
+}
+
+
+.label-contact:focus{
+
+    outline: none;
+    box-shadow: none;
+    border: none;
+    background: #dee2e6;;
+}
+
+
+
+
+
+
+
+
+
+/* =====================button ====================*/
+
+
+.butn{
+
+    background-color: orange;
+    color: white;
+    border-radius: 17px;
+    border: none;
+    outline: none;
+    transition: all 0.6s ease;
+    text-transform: capitalize;
+   
+}
+
+
+.butn:hover{
+
+    background-color: #dee2e6;
+    color: black;
+}
+
+.butn:active{
+
+    background-color: red;
+    color: rgb(201, 201, 201);
+}
+
+
+/* ===============this is responsie layouts===================== */
+
+
+
+
+
+@media (max-width:360px){
+
+    .map{
+        width: 13rem;
+    }
+
+
+}

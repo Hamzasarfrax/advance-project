@@ -126,7 +126,13 @@ const Foter = () => {
 			<div className="footer-left">
 
 				<h3>Travel<span>Wave</span></h3>
-
+				<div className='container'>
+      <div className='row'>
+        <div className='col-md'>
+          <img src={require("../images/logo.png")} className="w-50 h-50 logo" />
+          </div>
+        </div>
+      </div>
 				<p className="footer-links">
 					<a href="/" className="#">Home</a>
 					
@@ -148,9 +154,9 @@ const Foter = () => {
 
 				<div>
 				<ImLocation2 className='icon-address'/>	<i className="fa fa-map-marker px-2"></i>
-					<p><span>444 S. Cedros Ave</span> Solana Beach, California</p>
+					<p><span>First Floor,</span>AB Heights, Airport Road, Lahore</p>
 				</div>
-
+				{/* Office Address: Office: 11, First Floor, AB Heights, Airport Road, Lahore */}
 				<div>
 				<BsFillTelephonePlusFill className='icon-address'/>	<i className="fa fa-phone px-2"></i>
 					<p>+1.555.555.5555</p>

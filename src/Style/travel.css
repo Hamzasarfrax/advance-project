@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Heebo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&family=Heebo:wght@700&family=Hubballi&display=swap');
+
+
+
+
+
+
+* {
+
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Hubballi', cursive;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.message-box{
+min-height: 8rem;
+max-height: 8rem;
+}
+.message-box:focus{
+   border: none;
+   outline: none;
+   box-shadow: none;
+    }
+
+
+/* ===========  this is for botstrap form outline after click  ==============*/
+
+    .form-travel:focus{
+        border: none;
+        outline: none;
+        box-shadow: none;
+        background-color: rgb(255, 255, 255);
+
+    }
+
+
+    .form-travel{
+        border: none;
+        outline: none;
+        background-color:LightGray;
+
+    }
+
+
+
+
+
+
+/* this is responsive layouts */
+
+
+
+
+    @media (max-width:768px){
+
+.form{
+    margin-top: 20%;
+}
+
+    }

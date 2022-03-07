@@ -14,6 +14,11 @@
   font-family: Open Sans;
 }
 
+
+.logo{
+
+}
+
 section {
   width: 100%;
   display: inline-block;
@@ -215,4 +220,15 @@ section {
 		margin-left: 0;
 	}
 
+}
+
+
+
+
+
+@media (max-width: 770px) {
+
+	.footer-distributed{
+margin-top: 15rem;
+	}
 }

@@ -5,9 +5,34 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: aqua;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+body::selection{
+  background-color: orange;
+  color: BLACK;
+}
+
+
+::-webkit-scrollbar{
+ color: green;
+ width: 10px;
+}
+::-webkit-scrollbar-track{
+background-color: aqua;
+border-radius: 20px;
+
+}
+::-webkit-scrollbar-thumb{
+  background-color: orange;
+  border-radius: 20px;
+  color: green;
+  height: 5rem;
 }

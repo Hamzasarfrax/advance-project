@@ -1,65 +1,137 @@
-import React from 'react'
+import React,{useState} from 'react'
 
 
 
 
 
 
-
-
+import Form from 'react-bootstrap/Form'
+import contact from '../Style/contact.css';
 
 import First from '../images/First.jpg';
 import {Card} from 'react-bootstrap';
 import {Button} from 'react-bootstrap';
+import { Alert } from 'bootstrap';
 
 const Contact = () => {
+  const [state, setstate] = useState()
+
+
+function handledata(){
+
+alert("hamza")
+
+}
+
+
+function handler(e){
+// console.warn(value.target.value)
+
+
+console.warn(e.target.value)
+}
   return (
-    // <div>Contact</div>
+   <>
+   
+   <div className='container'>
+<div className='row'>
+
+<div className='col-md'>
+  {/* ========================this is contach left side dat=============== */}
 
 
-    <div class="container">
-  <div class="row">
-    <div class="col-sm py-2">
-    <Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src={First} className="imgvisa" />
-  <Card.Body>
-    <Card.Title>Card Title</Card.Title>
-    {/* <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text> */}
-    <Button variant="primary">Go somewhere</Button>
-  </Card.Body>
-</Card>
-    </div>
-    <div class="col-sm py-2">
-    <Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src={First} />
-  <Card.Body>
-    <Card.Title>Card Title</Card.Title>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
-  </Card.Body>
-</Card>
-    </div>
-    <div class="col-sm py-2">
-    <Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src={First} />
-  <Card.Body>
-    <Card.Title>Card Title</Card.Title>
-    <Card.Text>
-      Some quick example text to build on the card title and make up the bulk of
-      the card's content.
-    </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
-  </Card.Body>
-</Card>
-    </div>
-  </div>
+<h3>CONTACT INFO </h3>
+<p className='w-75'>TemplateMonster provides 24/7 support for all its premium products. Freebies go without it.</p>
+<p className='w-75'>If you have any questions regarding the customization of the chosen free theme, ask TemplateTuning to help you on a paid basis.</p>
+
+
+{/* 
+<figure className='py-5'>
+							<img src={require("../images/Turk.jpg")}/>
+						</figure> */}
+            	<figure className="map w-25">
+								<iframe src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Brooklyn,+New+York,+NY,+United+States&amp;aq=0&amp;sll=37.0625,-95.677068&amp;sspn=61.282355,146.513672&amp;ie=UTF8&amp;hq=&amp;hnear=Brooklyn,+Kings,+New+York&amp;ll=40.649974,-73.950005&amp;spn=0.01628,0.025663&amp;z=14&amp;iwloc=A&amp;output=embed" className='map'></iframe>
+							</figure>
+<p className='w-50'>
+The Company Name Inc.
+8901 Marmora Road,
+Glasgow, D04 89GR.</p><br/>
+
+<p> Freephone :  <span>+1 800 559 6580</span> </p>
+
+<p>Telephone :  <span>+1 800 559 6580</span> </p>
+
+<p> FAX :  <span>+1 800 559 6580</span> </p>
+
+<p> E-mail:  <a href="#" className='contact-link'>travelwave@gmail.com</a> </p>
+
+
+
+
+
+
+
+
+
 </div>
+
+<div className='col-md'>
+<Form className='form-group-sm'>
+  <h3>CONTACT FORM</h3>
+  <Form.Group className="mb-3 " controlId="formBasicEmail">
+    <Form.Label>Name</Form.Label>
+    <Form.Control type="NAME" placeholder="Enter Name" className='label-contact' onChange={handler} required/>
+    <Form.Text className="text-muted">
+      {/* We'll never share your email with anyone else. */}
+    </Form.Text>
+  </Form.Group>
+
+  
+  <Form.Group className="mb-3 " controlId="formBasicEmail">
+    <Form.Label>phone</Form.Label>
+    <Form.Control type="number" placeholder="Enter phone"  className='label-contact' required onChange={handler} />
+    <Form.Text className="text-muted">
+      We'll never share your email with anyone else.
+    </Form.Text>
+  </Form.Group>
+ 
+ 
+  <Form.Group className="mb-3 " controlId="formBasicEmail">
+    <Form.Label>Email</Form.Label>
+    <Form.Control type="email" placeholder="Enter Email"  className='label-contact' required onChange={handler} />
+    <Form.Text className="text-muted">
+      We'll never share your email with anyone else.
+    </Form.Text>
+  </Form.Group>
+  <Form.Group className="mb-3" controlId="formBasicCheckbox">
+  <Form.Group className="mb-3" controlId="formBasicPassword">
+    <Form.Label></Form.Label>
+    <textarea type="textarea" placeholder="write your message" className='mesaage-contact px-2  w-100 label-contact'  required onChange={handler} />
+  </Form.Group>
+  <Form.Group className="mb-3" controlId="formBasicCheckbox">
+    
+  </Form.Group>
+  </Form.Group>
+  <Button variant="primary" type="submit" onClick={handledata} className="butn">
+    Submit
+  </Button>
+</Form>
+</div>
+
+</div>
+
+
+   </div>
+   
+   
+   
+   
+   
+   
+   
+   </>
+
+
 
 
   )
