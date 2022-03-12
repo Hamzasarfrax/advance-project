@@ -40,9 +40,9 @@ console.warn(e.target.value)
   {/* ========================this is contach left side dat=============== */}
 
 
-<h3>CONTACT INFO </h3>
-<p className='w-75'>TemplateMonster provides 24/7 support for all its premium products. Freebies go without it.</p>
-<p className='w-75'>If you have any questions regarding the customization of the chosen free theme, ask TemplateTuning to help you on a paid basis.</p>
+<h3 className=''>CONTACT INFO </h3>
+<p className='w-75 font'>TemplateMonster provides 24/7 support for all its <span className='rang '> premium products.</span> Freebies go without it.</p>
+<p className='w-75 font'>If you have any questions regarding the customization of the chosen free theme, ask <span className='rang'>TemplateTuning </span>to help you on a paid basis.</p>
 
 
 {/* 
@@ -52,18 +52,18 @@ console.warn(e.target.value)
             	<figure className="map w-25">
 								<iframe src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Brooklyn,+New+York,+NY,+United+States&amp;aq=0&amp;sll=37.0625,-95.677068&amp;sspn=61.282355,146.513672&amp;ie=UTF8&amp;hq=&amp;hnear=Brooklyn,+Kings,+New+York&amp;ll=40.649974,-73.950005&amp;spn=0.01628,0.025663&amp;z=14&amp;iwloc=A&amp;output=embed" className='map'></iframe>
 							</figure>
-<p className='w-50'>
+<p className='w-50 font'>
 The Company Name Inc.
 8901 Marmora Road,
 Glasgow, D04 89GR.</p><br/>
 
-<p> Freephone :  <span>+1 800 559 6580</span> </p>
+<p  className=' font'> Freephone :  <span>+1 800 559 6580</span> </p>
 
-<p>Telephone :  <span>+1 800 559 6580</span> </p>
+<p  className=' font'>Telephone :  <span>+1 800 559 6580</span> </p>
 
-<p> FAX :  <span>+1 800 559 6580</span> </p>
+<p  className=' font'> FAX :  <span>+1 800 559 6580</span> </p>
 
-<p> E-mail:  <a href="#" className='contact-link'>travelwave@gmail.com</a> </p>
+<p  className=' font'> E-mail:  <a href="#" className='contact-link'>travelwave@gmail.com</a> </p>
 
 
 

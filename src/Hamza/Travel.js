@@ -26,7 +26,7 @@ const Travel = () => {
             <h4>TRAVEL INSURANCE</h4>
 
 <img src={require("../images/Turk.jpg")}  className="travel-img w-25 py-5" />
-<p className=' w-50'> Hassle free traveling is always a fun but risks associated with traveling may render the journey full of worries. With an 
+<p className=' w-50 font'> Hassle free traveling is always a fun but risks associated with traveling may render the journey full of worries. With an 
 appropriate travel insurance plan, you have an assurance about your health, luggage or other
  belongings.  </p>
 
@@ -117,8 +117,8 @@ appropriate travel insurance plan, you have an assurance about your health, lugg
 
 
   
-  <Form.Group className="mb-3" controlId="formBasicCheckbox">
-    <Form.Check type="checkbox" label="Check me out" />
+  <Form.Group className="mb-3 " controlId="formBasicCheckbox">
+    <Form.Check type="checkbox" label="Check me out" className=" check-box" />
   </Form.Group>
   
   

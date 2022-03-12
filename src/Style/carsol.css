@@ -3,3 +3,78 @@
 top: -99px;
     z-index: -1;
 }
+
+
+
+
+.boton{
+position: relative;
+top: -10rem;
+    background-color: aqua;
+    border-radius: 18px;
+    text-transform: capitalize;
+    z-index: 1000;
+    transition: all 1s ease-in-out;
+  cursor: pointer;
+
+box-shadow: aqua 1px 4px 1px 6px 
+
+}
+
+
+.boton:hover{
+
+
+background-color: green;
+color: aliceblue;
+transform: scale(0.5);
+
+
+}
+
+
+
+
+/* ========================rseponsive layouts==========================  */
+
+
+@media (max-width:761px) {
+
+
+    .boton {
+
+        top: -3rem;
+
+
+    }
+
+}
+
+
+
+
+
+@media (max-width:500px) {
+
+
+    .boton {
+
+        top: 0.1rem;
+
+
+    }
+
+}
+
+
+@media (max-width:360px) {
+
+
+    .boton {
+
+        top: 15px;
+
+
+    }
+
+}

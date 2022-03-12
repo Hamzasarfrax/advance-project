@@ -1,5 +1,5 @@
 .navbar{
-background-color:  #00aba9;
+background-color: orange;
 
   position: relative;
  /* margin-left: 10px 3rem; */
@@ -12,7 +12,7 @@ z-index: 1000px;
 }
 
 .navlinks {
-    color: black ;
+    color: rgb(255, 255, 255) ;
     padding: 0px ;
   
     text-decoration: none;
@@ -37,7 +37,7 @@ margin: 9px;
 left: 8rem;
 text-transform: uppercase;
 text-decoration: none;
-color: black;
+color: rgb(255, 255, 255);
 transition: all 0.5s ease-in-out;
 
   
@@ -52,7 +52,7 @@ transition: all 0.5s ease-in-out;
 .hov-data:hover{
   transition: all 0.5s ease-in-out;
   transform: scale(1.2);
-
+color: grey;
 }
 
 

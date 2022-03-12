@@ -76,11 +76,11 @@ const Home = () => {
               <p className='w-50 font-awsome '>  Founded in 2019, Travel Wave Pvt. Ltd. has come a long way from its beginnings in Ahmad Garden Lahore. When we first started out, with our passion for visa consultancy services drove us to start our own business.<br /><br />
 
                 We hope you enjoy our services as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact us. </p>
-
+<span className='font text-warning'>
               Sincerely,<br />
               TRAVEL WAVE PVT. LTD.<br />
               UAN 03 111 123 002.
-
+              </span>
 
 
 

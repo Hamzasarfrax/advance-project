@@ -179,7 +179,7 @@ section {
 	cursor: pointer;
 	background-color: orange;
 	border-radius: 7px;
-
+padding-bottom: 5px;
 	font-size: 20px;
 	color: #ffffff;
 	text-align: center;
@@ -190,8 +190,8 @@ section {
 }
 
 .footer-distributed .footer-icons a:hover{
-	background-color: aqua;
-	color: black;
+	background-color: grey;
+	color:orange;
 }
 
 
@@ -199,6 +199,34 @@ section {
 .icon-address{
 	color: #fff;
 }
+
+
+
+
+
+
+
+
+/* footwer navigation hover */
+
+
+
+.footer-links:hover{
+
+	color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* If you don't want the footer to be responsive, remove these media queries */
 
 @media (max-width: 880px) {

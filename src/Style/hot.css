@@ -29,17 +29,35 @@
  
  * {
  
-     font-family: 'Be Vietnam Pro', sans-serif;
-     font-family: 'Heebo', sans-serif;
-     font-family: 'Hubballi', cursive;
+    font-family: 'Be Vietnam Pro', sans-serif;
+
+text-transform: capitalize;
  }
  
  
  
 
+
+.font{
+    font-family: 'Be Vietnam Pro', sans-serif;
+
+text-transform: capitalize;
+font-size: 15px;
+
+}
+
+
+
+
+
+
+
+
+
+
 .turk{
     text-decoration: none;
-    color: green;
+    color: orange;
   position: relative;
   top: -3.5rem;
   text-transform: uppercase;
@@ -53,8 +71,8 @@
 
 
 .button{
-    background-color: palegreen;
-    color: blue;
+    background-color: orange;
+    color: rgb(253, 253, 255);
     border-radius: 15px;
     border: none;
     text-transform: capitalize;
@@ -93,21 +111,22 @@ right: 6rem;
 
 
 .heading-pix{
-
+color: orange;
     position: absolute;
     left: 15rem;
     text-transform: uppercase;
     text-decoration: none;
-    color: rgb(16, 87, 16);
+    color: orange(16, 87, 16);
 }
 
 
 .heading-pix:hover{
 
   
-    color: rgb(212, 53, 13);
+    color: grey;
   
 }
+
 
 
 
@@ -132,16 +151,19 @@ right: 6rem;
 
 
 .btn1{
-    background-color: palegreen;
+    background-color: orange;
+    color: white;
     border-radius: 15px;
+    width: 7rem;
     border: none;
     position: absolute;
+    height: 2rem;
   margin-top: -1.5rem;
   text-transform: capitalize;
 }
 
 .btn1:hover{
-    background-color: aliceblue;
+    background-color: rgb(182, 182, 182);
     color: black;
     transition: all 0.5s ease-in-out;
     transform: scale(1.2);
@@ -151,16 +173,19 @@ right: 6rem;
 
 
 .btn2{
-    background-color: palegreen;
+    background-color: orange;
     border-radius: 15px;
+    color: white;
+    height: 2rem;
     border: none;
     position: absolute;
   margin-top: -1.5rem;
+  width: 7rem;
   text-transform: capitalize;
 }
 
 .btn2:hover{
-    background-color: aliceblue;
+    background-color: rgb(182, 182, 182);
     color: black;
     transition: all 0.5s ease-in-out;
     transform: scale(1.2);
@@ -173,16 +198,19 @@ right: 6rem;
 
 
 .btn3{
-    background-color: palegreen;
+    background-color: orange;
+    color: white;
     border-radius: 15px;
     border: none;
     position: absolute;
+    width: 7rem;
+    height: 2rem;
   margin-top: -1.5rem;
   text-transform: capitalize;
 }
 
 .btn3:hover{
-    background-color: aliceblue;
+    background-color: rgb(182, 182, 182);
     color: black;
     transition: all 0.5s ease-in-out;
     transform: scale(1.2);
@@ -194,7 +222,7 @@ right: 6rem;
 
 ul li ,a{
     text-decoration: none;
-    color: palegreen;
+    color: orange;
 }
 
 
@@ -203,7 +231,7 @@ ul li ,a{
 
 ul li ,a:hover{
     text-decoration: none;
-    color: rgb(11, 12, 11);
+    color: gray;
     /* transition: all 0.5s ease-in-out;
     transform: scale(1.2); */
   

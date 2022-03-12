@@ -32,12 +32,12 @@ top: 5rem;
 
 .client-name{
 
-    color: green;
+    color: orange;
 }
 
 .batn{
-    color: rgb(6, 20, 32);
-    background-color: palegreen;
+    color: rgb(255, 255, 255);
+    background-color: orange;
     outline: none;
     box-shadow: none;
     border-radius: 18px;
@@ -47,10 +47,13 @@ top: 5rem;
 }
 
 .batn:hover{
-    background: linear-gradient(to top right, #33ccff -13%, #ff99cc 109%);
-    color: aliceblue;
+    /* background: linear-gradient(to top right, orange -13%, white 109%); */
+    background-color: rgb(209, 209, 209);
+    color: rgb(0, 0, 0);
     outline: none;
     border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform:  scale(1.1);
 }
 
 
@@ -64,7 +67,7 @@ top: 5rem;
     outline: none ;
     border: none;
     box-shadow: none;
-    background-color: rgb(238, 234, 20);
+    background-color: rgb(221, 0, 0);
     transform: scale(0.9);
 }
 
@@ -135,6 +138,11 @@ top: 5rem;
     left: 6rem;
     bottom: 5rem;
     width: 70%;
+    font-size: 15px;
+ 
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Hubballi', cursive;
 }
 
 
@@ -144,7 +152,7 @@ top: 5rem;
     position: relative;
     top: 3rem;
     text-transform: uppercase;
-    color: green;
+    color: orange;
     cursor: pointer;
 }
 

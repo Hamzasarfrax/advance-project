@@ -5,7 +5,7 @@ import hot from '../Style/hot.css'
 
 // import First from '../images/First.jpg';
 
-
+import { AiFillCaretRight } from "react-icons/ai";
 
 import {Card} from 'react-bootstrap';
 import {Button} from 'react-bootstrap';
@@ -23,6 +23,7 @@ const Hot = () => {
 
 
 <div className='row '>
+
   {/* =============================================this is for img and data and para =======================================*/}
   <div className='col-sm first'>
   <h2 className='hotpara'>HOT DEALS</h2>
@@ -33,7 +34,7 @@ const Hot = () => {
 <img src={require("../images/Turk.jpg")} className="w-25"/>
 
 <a href="" className='heading-pix'>turkey</a>
-<p className='w-50'>
+<p className='w-50 font my-2'>
 
 Tourism in Turkey is focused largely on a variety of historical sites, and on seaside resorts along its Aegean and Mediterranean Sea coasts. Turkey has also become a popular destination for culture, spa, and health care.
 <br/><br/>
@@ -53,7 +54,7 @@ Climate :- Hot, dry summers and mild to cool, wet winters.
 <img src={require("../images/Thai.jpg")} className="w-25"/>
 <a href="" className='heading-pix'>turkey</a>
 
-<p className='w-50'>
+<p className='w-50 font my-2'>
 
 Tourism in Turkey is focused largely on a variety of historical sites, and on seaside resorts along its Aegean and Mediterranean Sea coasts. Turkey has also become a popular destination for culture, spa, and health care.
 
@@ -79,7 +80,7 @@ Climate :- Hot, dry summers and mild to cool, wet winters.
 <img src={require("../images/South.jpg")} className="w-25"/>
 <a href="" className='heading-pix'>turkey</a>
 
-<p className='w-50'>
+<p className='w-50 font my-2'>
 
 Tourism in Turkey is focused largely on a variety of historical sites, and on seaside resorts along its Aegean and Mediterranean Sea coasts. Turkey has also become a popular destination for culture, spa, and health care.
 
@@ -129,7 +130,7 @@ Climate :- Hot, dry summers and mild to cool, wet winters.
   <h5 className='linkhdng'>CHOOse the country</h5>
 					<ul className='ul'>
 						<div className="">
-						<li ><a href="#">Azerbaijan</a></li>
+						<li >	<a href="#">Azerbaijan</a></li>
 						<li><a href="#">Afganistan</a></li>
 						<li><a href="#">Austria</a></li>
 						<li><a href="#">Belgium</a></li>
