@@ -13,6 +13,10 @@ import Contact from './Hamza/Contact';
 import Foter from './Hamza/Foter';
 
 
+import Click from "./Hamza/Click";
+
+
+import Turk from "./Hamza/cards/Turk";
 
 
 function App() {
@@ -31,6 +35,17 @@ function App() {
       <Route exact element={<Travel /> } path="/Travel" />
       <Route exact element={<Contact />} path="/Contact" />
      
+     {/* this is home page cards data navigation */}
+     
+     
+      <Route exact element={<Click />} path="/Click" />
+      <Route exact element={<Click />} path="/Click" />
+      <Route exact element={<Turk />} path="/Turk" />
+     
+     {/* this is home page cards data navigation */}
+
+     {/* <Route exact element={<Turk />} path="/Turk" /> */}
+
     </Routes>
 
 

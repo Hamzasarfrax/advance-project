@@ -5,11 +5,21 @@ import { Card } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
 import cardimg from '../Style/cardimg.css';
 
-
+import Modal from 'react-bootstrap/Modal'
 import { BiMessageRoundedDots, BiMinus } from "react-icons/bi";
 import home from '../Style/home.css';
 import { TiMessages} from "react-icons/ti";
-const Home = () => {
+import Click from "../Hamza/Click";
+
+
+
+
+const Home = (props) => {
+
+
+
+  
+
   return (
 
 
@@ -27,7 +37,7 @@ const Home = () => {
       Some quick example text to build on the card title and make up the bulk of
       the card's content.
     </Card.Text> */}
-                <Button variant="primary" className="batn">Go somewhere</Button>
+                <Button variant="primary" className="batn"  onClick={ () => window.open("Click" , "_blank")} >Go somewhere </Button>
               </Card.Body>
             </Card>
           </div>
@@ -40,7 +50,7 @@ const Home = () => {
       Some quick example text to build on the card title and make up the bulk of
       the card's content.
     </Card.Text> */}
-                <Button variant="primary" className="batn">Go somewhere</Button>
+                <Button variant="primary" className="batn"  onClick={ () => window.open("Turk" , "_blank")}>Go somewhere</Button>
               </Card.Body>
             </Card>
           </div>
@@ -53,7 +63,7 @@ const Home = () => {
       Some quick example text to build on the card title and make up the bulk of
       the card's content.
     </Card.Text> */}
-                <Button variant="primary" className="batn">Go somewhere</Button>
+                <Button variant="primary" className="batn" onClick={ () => window.open("Click" , "_blank")}>Go somewhere</Button>
               </Card.Body>
             </Card>
           </div>
@@ -168,6 +178,8 @@ const Home = () => {
       </div>
     
     </>
+
+
   )
 }
 

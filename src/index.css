@@ -15,9 +15,9 @@ code {
 }
 
 
-body::selection{
+::selection{
   background-color: orange;
-  color: BLACK;
+  color: rgb(12, 12, 12);
 }
 
 
