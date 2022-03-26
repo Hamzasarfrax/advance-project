@@ -10,7 +10,7 @@ import { BiMessageRoundedDots, BiMinus } from "react-icons/bi";
 import home from '../Style/home.css';
 import { TiMessages} from "react-icons/ti";
 import Click from "../Hamza/Click";
-
+import Carsol from './Carsol';
 
 
 
@@ -25,7 +25,7 @@ const Home = (props) => {
 
     <>
 
-
+<Carsol/>
       <div class="container">
         <div class="row">
           <div class="col-sm py-2">
@@ -128,7 +128,7 @@ const Home = (props) => {
 
 <br/>   
 <img src={require("../images/horizontal.png")} className="horizontal-line"/>
-<p className='mx-3 mb'>1 NOV</p>
+<p className='mx-3 mb white'>1 NOV</p>
           </div>
           
           
@@ -176,7 +176,7 @@ const Home = (props) => {
           </div>
         </div>
       </div>
-    
+
     </>
 
 

@@ -19,7 +19,7 @@ const Navs = () => {
     <Navbar.Collapse id="basic-navbar-nav">
       <div className=''>
       <Nav className="navlinks  ">
-        <NavLink to="/" className="home hov-data">Home</NavLink>
+        <NavLink to="/" className="home ">Home</NavLink>
         <NavLink to="Visa"  className="visa hov-data" >Visa</NavLink>
         <NavLink to="Hot"  className="hot hov-data" >HOT deals</NavLink>
         <NavLink to="Travel"  className="travel hov-data" >Travel Insurance</NavLink>
@@ -38,7 +38,7 @@ const Navs = () => {
   </Container>
 </Navbar>
 
-<Carsol/>
+
 
 </div>
  

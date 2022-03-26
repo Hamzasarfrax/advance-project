@@ -35,13 +35,13 @@ const Carsol = () => {
       />
 
       <Carousel.Caption>
-      <div className='container'>
+      {/* <div className='container'>
       <div className='row'>
         <div className='col-sm'>
 < Button  href="#"  className='btn  boton'>learn more</Button>
           </div>
         </div>
-      </div>
+      </div> */}
        
       </Carousel.Caption>
 
@@ -54,13 +54,13 @@ const Carsol = () => {
       />
   
       <Carousel.Caption>
-      <div className='container'>
+      {/* <div className='container'>
       <div className='row'>
         <div className='col-sm'>
  < Button  href="#"  className='btn  boton'>learn more</Button>
           </div>
         </div>
-      </div>
+      </div> */}
          
       </Carousel.Caption>
       
@@ -73,13 +73,13 @@ const Carsol = () => {
       />
  
       <Carousel.Caption>
-      <div className='container'>
+      {/* <div className='container'>
       <div className='row'>
         <div className='col-sm'>
 < Button  href="#"  className='btn  boton'>learn more</Button>
           </div>
         </div>
-      </div>
+      </div> */}
 
       </Carousel.Caption>
     </Carousel.Item>
