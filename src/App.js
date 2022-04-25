@@ -12,7 +12,7 @@ import Hot from './Hamza/Hot';
 import Contact from './Hamza/Contact';
 import Foter from './Hamza/Foter';
 
-
+import Carsol from './Hamza/Carsol';
 import Click from "./Hamza/Click";
 
 
@@ -26,6 +26,7 @@ function App() {
 
 
   <Navs />
+  <Carsol/>
 
     <Routes>
 
